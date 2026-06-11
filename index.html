@@ -1,4 +1,3 @@
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,8 +22,6 @@ body{
     color:#f4f7fa;
     line-height:1.7;
 }
-
-/* Hero */
 
 header{
     min-height:100vh;
@@ -97,8 +94,6 @@ header{
 .btn:hover{
     transform:translateY(-4px);
 }
-
-/* Layout */
 
 .container{
     max-width:1150px;
@@ -194,340 +189,311 @@ footer{
     }
 }
 </style>
+
 </head>
 
 <body>
 
 <header>
 
-    <div class="hero">
+<div class="hero">
 
-        <div class="hero-badge">
-            ✈️ Data Engineering • Machine Learning • Travel Intelligence
-        </div>
+    <div class="hero-badge">
+        ✈️ Data Engineering • Machine Learning • Travel Intelligence
+    </div>
 
-        <h1>
-            Next<span class="highlight">Leg</span>
-        </h1>
+    <h1>
+        Next<span class="highlight">Leg</span>
+    </h1>
 
-        <p>
-            Predicting flight disruptions before they happen and helping travelers
-            find the smartest path forward during severe weather events.
-        </p>
+    <p>
+        Predicting flight disruptions before they happen and helping travelers
+        find smarter alternatives during severe weather events.
+    </p>
 
-        <div class="buttons">
+    <div class="buttons">
 
-            <a href="YOUR_GITHUB_LINK"
-               class="btn primary"
-               target="_blank">
-               🔗 View GitHub
-            </a>
+        <a href="https://github.com/HaTranUSF/NextLeg"
+           class="btn primary"
+           target="_blank">
+           🔗 View GitHub
+        </a>
 
-            <a href="YOUR_NOTEBOOK_LINK"
-               class="btn secondary"
-               target="_blank">
-               💻 Explore Notebook
-            </a>
-
-        </div>
+        <a href="https://github.com/HaTranUSF/NextLeg/raw/main/Nextleg(new)%20(2).ipynb"
+           class="btn secondary"
+           target="_blank">
+           💻 Download Notebook
+        </a>
 
     </div>
+
+</div>
 
 </header>
 
 <div class="container">
 
-    <section class="section">
+<section class="section">
 
-        <h2>The Problem That Started It All</h2>
+<h2>The Story Behind NextLeg</h2>
 
-        <div class="story-box">
+<div class="story-box">
 
-            <p>
-                In August 2024, I was traveling to Las Vegas for a major conference when my
-                flight was canceled because of a hurricane.
-            </p>
+    <p>
+        In August 2024, I was traveling to Las Vegas for a major conference when my flight was canceled because of a hurricane.
+    </p>
 
-            <p>
-                I found myself stranded in Philadelphia, waiting nearly three hours in a
-                customer service line while hundreds of travelers searched for answers.
-                Most people were told they would not be able to leave for another two or
-                three days.
-            </p>
+    <p>
+        I found myself stranded in Philadelphia, waiting nearly three hours in a customer service line while hundreds of travelers searched for answers. Most people were being told they would not be able to leave for another two or three days.
+    </p>
 
-            <p>
-                After asking about every possible alternative route, I eventually pieced
-                together a 24-hour journey involving three separate flights that got me
-                to Las Vegas just in time.
-            </p>
+    <p>
+        After asking about every possible alternative route, I eventually pieced together a 24-hour journey involving three separate flights that got me to Las Vegas just in time.
+    </p>
 
-            <p>
-                Walking away from that experience, one question stuck with me:
-            </p>
+    <p>
+        That experience inspired me to build NextLeg: a system designed to predict flight disruptions and help travelers quickly identify better alternatives before chaos unfolds.
+    </p>
 
-            <h3 style="color:#6fcfff; margin-top:25px;">
-                What if travelers knew which flights were at risk before cancellations happened?
-            </h3>
+</div>
 
+</section>
+
+<section class="section">
+
+<h2>Project Overview</h2>
+
+<div class="cards">
+
+    <div class="card">
+        <h3>🌪 Predict Disruptions</h3>
+
+        <p>
+            Estimate cancellation risk before severe weather impacts operations.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>🛫 Smarter Rebooking</h3>
+
+        <p>
+            Support proactive recommendations for alternative routes.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>⏱ Better Experiences</h3>
+
+        <p>
+            Reduce uncertainty and long customer service wait times.
+        </p>
+    </div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<h2>What I Built</h2>
+
+<div class="timeline">
+
+    <div class="timeline-item">
+
+        <h3>Data Integration</h3>
+
+        <p>
+            Used Python to collect and combine data from multiple sources, including Meteo weather data, Bureau flight records, and internal airport information.
+        </p>
+
+    </div>
+
+    <div class="timeline-item">
+
+        <h3>ETL Pipeline</h3>
+
+        <p>
+            Designed and implemented an end-to-end ETL pipeline that extracted, transformed, and loaded more than 2.5 million flight records into PostgreSQL.
+        </p>
+
+    </div>
+
+    <div class="timeline-item">
+
+        <h3>Feature Engineering</h3>
+
+        <p>
+            Engineered features related to weather conditions, flight routes, airport operations, and scheduling patterns.
+        </p>
+
+    </div>
+
+    <div class="timeline-item">
+
+        <h3>Machine Learning</h3>
+
+        <p>
+            Trained and evaluated predictive models using pandas, NumPy, and scikit-learn to identify flights with elevated cancellation risk.
+        </p>
+
+    </div>
+
+    <div class="timeline-item">
+
+        <h3>Real-World Application</h3>
+
+        <p>
+            Designed the system so predictions could power NextLeg's vision of recommending alternative routes during travel disruptions.
+        </p>
+
+    </div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<h2>Project Impact</h2>
+
+<div class="metrics">
+
+    <div class="metric">
+
+        <div class="metric-number">
+            2.5M+
         </div>
 
-    </section>
+        <p>
+            Flight records processed
+        </p>
 
-    <section class="section">
+    </div>
 
-        <h2>Project Overview</h2>
+    <div class="metric">
 
-        <div class="cards">
-
-            <div class="card">
-                <h3>🌪 Predict Disruptions</h3>
-
-                <p>
-                    Estimate cancellation risk before severe weather impacts operations.
-                </p>
-            </div>
-
-            <div class="card">
-                <h3>🛫 Smarter Rebooking</h3>
-
-                <p>
-                    Enable proactive recommendations for alternative routes.
-                </p>
-            </div>
-
-            <div class="card">
-                <h3>⏱ Better Experiences</h3>
-
-                <p>
-                    Reduce airport uncertainty and long customer service waits.
-                </p>
-            </div>
-
+        <div class="metric-number">
+            Jul 2024–Jan 2025
         </div>
 
-    </section>
+        <p>
+            Historical data analyzed
+        </p>
 
-    <section class="section">
+    </div>
 
-        <h2>What I Built</h2>
+    <div class="metric">
 
-        <div class="timeline">
-
-            <div class="timeline-item">
-
-                <h3>1. Data Collection</h3>
-
-                <p>
-                    Used Python to collect and integrate data from multiple sources:
-                </p>
-
-                <ul>
-                    <li>🌦 Meteo weather data</li>
-                    <li>✈️ Bureau flight records</li>
-                    <li>🏢 Internal airport information</li>
-                </ul>
-
-            </div>
-
-            <div class="timeline-item">
-
-                <h3>2. ETL Pipeline</h3>
-
-                <p>
-                    Designed and implemented an end-to-end ETL pipeline to extract,
-                    transform, and load more than <strong>2.5 million flight records</strong>
-                    into PostgreSQL.
-                </p>
-
-            </div>
-
-            <div class="timeline-item">
-
-                <h3>3. Feature Engineering</h3>
-
-                <p>
-                    Created predictive variables related to weather conditions,
-                    flight schedules, routes, airports, and operational patterns.
-                </p>
-
-            </div>
-
-            <div class="timeline-item">
-
-                <h3>4. Machine Learning</h3>
-
-                <p>
-                    Trained and evaluated multiple machine learning models using
-                    pandas, NumPy, and scikit-learn to identify flights with
-                    elevated cancellation risk.
-                </p>
-
-            </div>
-
-            <div class="timeline-item">
-
-                <h3>5. Practical Application</h3>
-
-                <p>
-                    Connected predictions to the NextLeg concept by designing the
-                    system to support intelligent alternative flight recommendations.
-                </p>
-
-            </div>
-
+        <div class="metric-number">
+            0.30
         </div>
 
-    </section>
+        <p>
+            Minority-class F1 score achieved
+        </p>
 
-    <section class="section">
+    </div>
 
-        <h2>Project Impact</h2>
+    <div class="metric">
 
-        <div class="metrics">
-
-            <div class="metric">
-
-                <div class="metric-number">
-                    2.5M+
-                </div>
-
-                <p>
-                    Flight records processed
-                </p>
-
-            </div>
-
-            <div class="metric">
-
-                <div class="metric-number">
-                    Jul 2024
-                    <br>
-                    –
-                    <br>
-                    Jan 2025
-                </div>
-
-                <p>
-                    Historical data analyzed
-                </p>
-
-            </div>
-
-            <div class="metric">
-
-                <div class="metric-number">
-                    0.30
-                </div>
-
-                <p>
-                    Minority-class F1 score achieved
-                </p>
-
-            </div>
-
-            <div class="metric">
-
-                <div class="metric-number">
-                    ↑
-                </div>
-
-                <p>
-                    Significant improvement over baseline detection
-                </p>
-
-            </div>
-
+        <div class="metric-number">
+            ↑
         </div>
 
-    </section>
+        <p>
+            Significant improvement over baseline performance
+        </p>
 
-    <section class="section">
+    </div>
 
-        <h2>Business Value</h2>
+</div>
 
-        <div class="cards">
+</section>
 
-            <div class="card">
+<section class="section">
 
-                <h3>For Airlines</h3>
+<h2>Business Value</h2>
 
-                <p>
-                    Proactively identify high-risk flights, improve staffing,
-                    and reduce operational disruptions during hurricane season.
-                </p>
+<div class="cards">
 
-            </div>
+    <div class="card">
 
-            <div class="card">
+        <h3>For Airlines</h3>
 
-                <h3>For Travelers</h3>
+        <p>
+            Enable proactive rebooking, improve operational planning, and reduce disruption costs during severe weather events.
+        </p>
 
-                <p>
-                    Receive better recommendations and avoid hours spent
-                    waiting in airport customer service lines.
-                </p>
+    </div>
 
-            </div>
+    <div class="card">
 
-            <div class="card">
+        <h3>For Travelers</h3>
 
-                <h3>For NextLeg</h3>
+        <p>
+            Help passengers avoid hours of uncertainty by surfacing better alternatives faster.
+        </p>
 
-                <p>
-                    Establish the foundation for a travel intelligence platform
-                    capable of recommending optimal alternative routes in real time.
-                </p>
+    </div>
 
-            </div>
+    <div class="card">
 
-        </div>
+        <h3>For NextLeg</h3>
 
-    </section>
+        <p>
+            Establish the foundation for a travel intelligence platform capable of real-time disruption support.
+        </p>
 
-    <section class="section">
+    </div>
 
-        <h2>Technology Stack</h2>
+</div>
 
-        <div class="cards">
+</section>
 
-            <div class="card">
-                <h3>Languages</h3>
-                <p>Python • SQL</p>
-            </div>
+<section class="section">
 
-            <div class="card">
-                <h3>Data Engineering</h3>
-                <p>ETL • PostgreSQL • Data Integration</p>
-            </div>
+<h2>Technology Stack</h2>
 
-            <div class="card">
-                <h3>Machine Learning</h3>
-                <p>Pandas • NumPy • Scikit-learn</p>
-            </div>
+<div class="cards">
 
-            <div class="card">
-                <h3>Data Sources</h3>
-                <p>Meteo • Bureau Flight Data • Internal Airport Data</p>
-            </div>
+    <div class="card">
+        <h3>Languages</h3>
+        <p>Python • SQL</p>
+    </div>
 
-        </div>
+    <div class="card">
+        <h3>Data Engineering</h3>
+        <p>ETL • PostgreSQL • Data Integration</p>
+    </div>
 
-    </section>
+    <div class="card">
+        <h3>Machine Learning</h3>
+        <p>Pandas • NumPy • Scikit-learn</p>
+    </div>
+
+    <div class="card">
+        <h3>Data Sources</h3>
+        <p>Meteo • Bureau Flight Data • Internal Airport Data</p>
+    </div>
+
+</div>
+
+</section>
 
 </div>
 
 <footer>
 
     <p>
-        Built by Ha Tran • Inspired by a real hurricane-season travel experience.
+        Built by Ha Tran
     </p>
 
     <p style="margin-top:10px;">
-        Turning travel disruptions into opportunities for smarter decisions.
+        NextLeg • Flight Disruption Intelligence Platform
     </p>
 
 </footer>
 
 </body>
 </html>
-```
