@@ -5,6 +5,7 @@
 NextLeg is a flight disruption intelligence platform designed to help travelers quickly discover the best alternative routes during severe weather events and operational disruptions.
 
 Inspired by a real experience during the 2024 hurricane season, NextLeg combines data engineering and machine learning to predict flight cancellations and recommend better travel options when passengers need them most.
+[Link to my notebook](https://github.com/HaTranUSF/NextLeg/blob/main/Nextleg(new).ipynb)
 
 ---
 
